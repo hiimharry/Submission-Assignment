@@ -49,5 +49,11 @@ public class You
 		age++;
 		return(age);
 	}
-		
+	
+	public static void main(String args[])
+	{
+		You you = new You();
+		System.out.println(you.happyBirthday());
+	}
+	
 }
